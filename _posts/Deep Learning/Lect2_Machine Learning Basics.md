@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: '[Lect2] Machine Learning Basics'
 excerpt: "인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
 date: 2021-06-23 17:29
