@@ -1,23 +1,25 @@
 ---
-layout: posts
-title: '[Lect2] Machine Learning Basics'
-excerpt: "인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
-date: 2021-06-23 17:29
-last_modified_at: 2021-06-23 17:29
-categories:
-  - Deep Learning
-tags: 
-   - Deep Learning
-   - AIAS
-
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky: true
+
+use_math: true
+layout: profile_and_toc # single
+title: '[Lect2] Machine Learning Basics'
+excerpt: "인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
+date: 2021-06-23
+last_modified_at: 2021-06-23
+categories:
+  - Deep Learning
+tags: 
+   - [Deep Learning, AIAS]
+
+comments: true
 ---
+<!-- {:toc} -->
 
-AIAS-Lect2_Machine Learning Basics
-
-
+<!-- AIAS-Lect2_Machine Learning Basics -->
 
 # Machine Learning Overview
 
@@ -45,7 +47,7 @@ Machine Learning(ML)은 크게 세 파트로 분류할 수 있다.
 
 classification model과 regression model은 문제에 따라 다음과 같이 분류될 수 있다.
 
-##### Classification Model (분류모델)
+#### Classification Model (분류모델)
 
 Classification Model은 <u>예측값이 discrete한 경우</u>를 의미한다. classification model은 다음과 같이 4가지 model로 나뉠 수 있다.
 
@@ -54,7 +56,7 @@ Classification Model은 <u>예측값이 discrete한 경우</u>를 의미한다. 
 3. **Multi-label classification**: <u>하나 이상의 classes 중 하나 이상의 classes로 예측하는 경우</u>이다. 예를 들어, 특정 영화의 카테고리를 분류할 때 로맨스이면서 공포물일 수 있는 경우에 해당한다.
 4. **Imbalanced Classification**: <u>각 class의 데이터 개수가 불균형한 경우</u>의 예측이다. 예를 들어, 백인 남성의 이미지만 유독 많은 경우, 입력된 사람 이미지에 대해 백인 남성으로 분류할 가능성이 높아지는 분류 모델에 해당한다. 이 경우 모델이 적절하게 학습되지 않을 확률이 높으므로 적절한 데이터 처리를 해줘야한다.
 
-##### Regression Model (회귀모델)
+#### Regression Model (회귀모델)
 
 Regression Model 은 <u>예측값이 continuous한 경우</u>를 의미한다. 
 

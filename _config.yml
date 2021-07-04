@@ -198,6 +198,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  math_engine: mathjax
 
 
 # Sass/SCSS
@@ -291,3 +292,25 @@ defaults:
       comments: false
       share: true
       related: false
+
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Comments
+utterances:
+  enable: true
+  repo: dazory/dazory.github.io
+  issue_term: title
+  theme: github-light
+
+# Bootstrap-toc
+baseurl: /bootstrap-toc
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - node_modules/
