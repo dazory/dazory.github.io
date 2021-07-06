@@ -1,1 +1,1 @@
-Sitemap: http://localhost:8001/sitemap.xml
+Sitemap: https://dazory.github.io//sitemap.xml
