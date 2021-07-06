@@ -5,7 +5,7 @@ toc_icon: "cog"
 toc_sticky: true
 
 use_math: true
-layout: profile_and_toc # single
+layout: post-with-comments # single
 title: '[Lect2] Machine Learning Basics'
 excerpt: "인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
 date: 2021-06-23
@@ -16,6 +16,7 @@ tags:
    - [Deep Learning, AIAS]
 
 comments: true
+share : false
 ---
 <!-- {:toc} -->
 
