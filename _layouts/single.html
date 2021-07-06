@@ -14,7 +14,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -24,7 +23,6 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
@@ -33,7 +31,6 @@ layout: default
         </header>
       {% endunless %}
 
-      
       <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
@@ -43,11 +40,8 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-
-        
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-
       </section>
 
       <footer class="page__meta">
@@ -56,18 +50,7 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
-
-        <!-- comment -->
-        <script src="https://utteranc.es/client.js"
-                repo="dazory/dazory.github.io"
-                issue-term="title"
-                label="comment"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-        </script>
       </footer>
-
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 

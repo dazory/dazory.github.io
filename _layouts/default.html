@@ -3,7 +3,7 @@
 
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
   Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -13,7 +13,6 @@
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-  
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
@@ -39,11 +38,5 @@
 
     {% include scripts.html %}
 
-   </body>
-  
-    {% if page.use_math %}
-      {% comment %} {% include Mathjax.html %} {% endcomment %}
-      {% include mathjax_support.html %}
-    {% endif %}
-  
+  </body>
 </html>
