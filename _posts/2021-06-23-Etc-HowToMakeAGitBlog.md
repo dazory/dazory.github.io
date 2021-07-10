@@ -103,7 +103,7 @@ GitHub Pages는 단순히 파일들을 호스팅하여 사이트를 생성해주
 
    끝까지 Next를 클릭하면 아래와 같이 커맨드창이 나오는데, 3을 입력하여 설치를 마치며 된다.
 
-   ![image-20210704110358262](C:\Users\dazol\AppData\Roaming\Typora\typora-user-images\image-20210704110358262.png)<span style="color:gray">*Fig 2. RubyInstaller2 예시 이미지.*</span>
+   <img src="/files/image-20210704110358262.png" alt="image-20210704110358262" style="zoom:89%;"/><span style="color:gray">*Fig 2. RubyInstaller2 예시 이미지.*</span>
 
    
 
@@ -134,13 +134,14 @@ GitHub Pages는 단순히 파일들을 호스팅하여 사이트를 생성해주
 
    먼저 [GitHub](https://github.com/)에 접속하고 로그인한다. Create New repository를 클릭하여 Repository name값을 `본인이름.github.io`로 세팅하여 레포지토리를 생성한다.
 
-   ![image-20210704111604606](C:\Users\dazol\AppData\Roaming\Typora\typora-user-images\image-20210704111604606.png)<span style="color:gray">*Fig 3. Repository name 예시 이미지. 나는 기존에 같은 이름의 repository가 존재하므로 이미 존재한다는 경고창이 뜬다.*</span>
+   <img src="/files/image-20210704111604606.png" alt="image-20210704111604606" style="zoom:89%;"/>
+   <span style="color:gray">*Fig 3. Repository name 예시 이미지. 나는 기존에 같은 이름의 repository가 존재하므로 이미 존재한다는 경고창이 뜬다.*</span>
 
 2. **Git clone**
 
    나는 VSCode terminal 환경에서 작업하기위해 아래와 같이 VScode를 실행하고 Git Bash 터미널을 열어주었다.
 
-   ![image-20210704111917003](C:\Users\dazol\AppData\Roaming\Typora\typora-user-images\image-20210704111917003.png)<span style="color:gray">*Fig 4. VScode에서 Git Bash terminal을 여는 방법 이미지.*</span>
+   <img src="/files/image-20210704111917003.png" alt="image-20210704111917003" style="zoom:89%;"/><span style="color:gray">*Fig 4. VScode에서 Git Bash terminal을 여는 방법 이미지.*</span>
 
    다음의 명령어를 통해 본인이 생성한 repository를 로컬PC로 clone한다.
 
