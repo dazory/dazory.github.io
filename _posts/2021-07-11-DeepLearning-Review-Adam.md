@@ -23,6 +23,17 @@ share : false
 
 # 배경
 
+training samples가 너무 많은 경우, 모든 training samples 각각에 대한 loss를 계산한 뒤 평균을 내는 방법은 연산량이 너무 많아 비효율적이다. 이러한 배경에서 **stochastic gradient descent(SGD)**가 탄생했다. 하지만 SGD는 gradient 기반 optimizer이므로 local minimum에 갇힐 수 있다는 문제점을 가지고 있다. 
+
+<img src="/files/image-20210418203310926.png" alt="image-20210418203310926"/>
+
+위 이미지는 local minimum(혹은 saddle point)에 갇히는 경우를 나타낸다. gradient값이 일시적으로 0인 경우, gradient descent가 최적화를 중지한다는 문제를 해결하고자 여러가지 optimizers가 제안되었다.
+
+아래 이미지는 여러가지 optimizers의 장단점을 잘 보여줘서 가져와봤다.
+
+<img src="/files/image-20210418210542140.png" alt="image-20210418210542140"/>
+
+이 중 Adam optimizer는 "무엇을 써야할 지 모른다면 Adam을 써라!" 라는 말이 있을 정도로 대부분의 상황에서 무난하게 잘 적용된다. 이번 포스팅에서는 이 중 Adam optimizer에 관한 논문을 읽고 리뷰해보려고 한다.
 
 
 <br>
@@ -77,7 +88,7 @@ Adam은 parameter를 업데이트 하는 방법으로 AdaGrad의 업데이트 �
 
 ## 분석
 
-> (이 방법이 좋다는 것을 어떻게 증명하였나?)
+<span style="color:gray">(이 방법이 좋다는 것을 어떻게 증명하였나?</span>
 
 논문에서는 도입한 1st, 2nd moment estimation을 통해 최적의 parameter를 구하는 과정을 SNR의 개념으로 쉽게 설명한다. (m_t ) ̂와 (v_t ) ̂는 확률적 기대값이 각각 gradient의 1차, 2차 moment이다. 이는 gradient에 대한 모평균, 모분산을 의미한다. 이러한 논리 과정을 통해 논문에서는 (m_t ) ̂/√((v_t ) ̂ )을 signal-to-noise로 해석하여 [참고2]의 5번 과정에 대한 직관적인 해석을 돕는다.
 
@@ -93,4 +104,7 @@ Adam 방법이 실제 상황에서 잘 적용되는지를 증명하기 위해 �
 
 
 # References
+
 1. Adam: A Method for Stochastic Optimization : https://arxiv.org/abs/1412.6980
+
+2. 자습해도 모르겠던 딥러닝, 머리속에 인스톨 시켜드립니다. : https://www.slideshare.net/yongho/ss-79607172
