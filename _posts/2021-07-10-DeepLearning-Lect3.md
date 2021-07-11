@@ -6,7 +6,7 @@ toc_sticky: true
 
 use_math: true
 layout: post-with-comments
-title: '[ML-02] Lect3. Neural Networks (part1)'
+title: '[AIAS-02] Lect3. Neural Networks (part1)'
 excerpt: "인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
 date: 2021-07-10
 last_modified_at: 2021-07-10
