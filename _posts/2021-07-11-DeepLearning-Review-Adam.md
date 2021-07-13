@@ -4,19 +4,20 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 
-use_math: true
-layout: post-with-comments
+layout: post-with-comments # single
 title: '[REVIEW-01] Adam: A Method for Stochastic Optimization'
 excerpt: "[논문 리뷰] Adam 논문 리뷰"
 date: 2021-07-11
-last_modified_at: 2021-07-11
+last_modified_at: 2021-07-13
 categories:
-  - Deep Learning
+  - ai-review
 tags: 
-   - [Deep Learning, optimizer]
+   - [Deep Learning, optimizer, review]
 
+use_math: true
 comments: true
 share : false
+sidebar_main: true
 ---
 
 <!-- [REVIEW-01] Adam: A Method for Stochastic Optimization -->

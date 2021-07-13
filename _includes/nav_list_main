@@ -1,0 +1,34 @@
+<!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            <span style="font-size:12px;">📂 전체 글 수 {{sum}} 개</style>
+      </li>
+      <li>
+        <span class="nav__sub-title">🧠 인공지능</span>
+            <span class="nav__sub-content">
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "ai-deeplearning" %}
+                <li><a href="/categories/ai/deeplearning" class="">Deep Learning ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "ai-review" %}
+                <li><a href="/categories/ai/review" class="">Paper Review ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+            </span>
+
+        <span class="nav__sub-title">🎸 기타</span>
+            <span class="nav__sub-content">
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "etc-blog" %}
+                <li><a href="/categories/etc/blog" class="">Blog ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+            </span>
+      </li>
+  </ul>
+</nav>
