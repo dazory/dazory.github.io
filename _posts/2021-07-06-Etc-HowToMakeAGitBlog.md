@@ -4,19 +4,20 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 
-use_math: true
 layout: post-with-comments
 title: '[TechBlog-01] Jekyll 블로그 개설하기'
-excerpt: "[기술블로그 운영하기] Jekyll을 Github pages에 호스팅하는 방법 "
+excerpt: "[기술블로그 운영하기] Jekyll을 Github pages에 호스팅하는 방법"
 date: 2021-07-06
-last_modified_at: 2021-07-06
+last_modified_at: 2021-07-13
 categories:
-  - TechBlog
+  - etc-blog
 tags: 
-   - [TechBlog]
+   - [blog]
 
+use_math: true
 comments: true
 share : false
+sidebar_main: true
 ---
 
 <br>

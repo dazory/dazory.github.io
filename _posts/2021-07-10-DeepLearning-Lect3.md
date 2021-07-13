@@ -4,19 +4,20 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 
-use_math: true
-layout: post-with-comments
-title: '[AIAS-02] Lect3. Neural Networks (part1)'
-excerpt: "인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
+layout: post-with-comments # single
+title: '[DL-02] Lect3. Neural Networks (part1)'
+excerpt: "[AIAS] 인하대학교 홍성은 교수님의 인공지능 응용 시스템 수업을 듣고 공부한 자료입니다."
 date: 2021-07-10
-last_modified_at: 2021-07-10
+last_modified_at: 2021-07-13
 categories:
-  - Deep Learning
+  - ai-deeplearning # Deep Learning
 tags: 
    - [Deep Learning, AIAS]
 
+use_math: true
 comments: true
 share : false
+sidebar_main: true
 ---
 
 <!-- AIAS-Lect3_Neural Networks (part1) -->

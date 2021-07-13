@@ -1,0 +1,10 @@
+
+/* nav_list_main */
+.nav__sub-title{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.nav__sub-content ul{
+    margin-left:10px;
+}
