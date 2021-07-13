@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning"
-layout: post-with-comments
+layout: archive-category_layout
 permalink: categories/ai/deeplearning
 author_profile: true
 sidebar_main: true
@@ -8,4 +8,4 @@ sidebar_main: true
 
 
 {% assign posts = site.categories.ai-deeplearning %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %} {% include archive-category.html type=page.entries_layout %} {% endfor %}

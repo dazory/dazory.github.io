@@ -1,6 +1,6 @@
 ---
-title: "Deep Learning"
-layout: post-with-comments
+title: "Paper Review"
+layout: archive-category_layout
 permalink: categories/ai/review
 author_profile: true
 sidebar_main: true

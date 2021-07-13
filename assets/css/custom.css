@@ -8,3 +8,35 @@
 .nav__sub-content ul{
     margin-left:10px;
 }
+
+.archive-item{
+    margin-bottom: 5px;
+}
+
+.page__taxonomy-item-category{
+    text-decoration: none;
+
+    background: #F0DBAE;
+    border-radius: 10px;
+    padding:1px 5px;
+
+	position: relative;
+	display: inline-block;
+}
+.page__taxonomy-item-category:hover{
+    background: #E1CEA5;
+}
+
+.page__taxonomy-item-tag{
+    text-decoration: none;
+
+    background: #E3E3E3;
+    border-radius: 10px;
+    padding:1px 5px;
+
+	position: relative;
+	display: inline-block;
+}
+.page__taxonomy-item-tag:hover{
+    background: #D1D1D1;
+}

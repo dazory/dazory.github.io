@@ -1,6 +1,6 @@
 ---
-title: "Deep Learning"
-layout: post-with-comments
+title: "Blog"
+layout: archive-category_layout
 permalink: categories/etc/blog
 author_profile: true
 sidebar_main: true
