@@ -4,9 +4,3 @@ main:
     url: /about/
   - title: "Category"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
-  - title: "Archive"
-    url: /year-archive/
-  - title: "Sitemap"
-    url: /sitemap/

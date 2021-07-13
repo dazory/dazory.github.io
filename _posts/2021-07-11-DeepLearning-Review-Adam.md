@@ -17,7 +17,6 @@ tags:
 use_math: true
 comments: true
 share : false
-sidebar_main: true
 ---
 
 <!-- [REVIEW-01] Adam: A Method for Stochastic Optimization -->
