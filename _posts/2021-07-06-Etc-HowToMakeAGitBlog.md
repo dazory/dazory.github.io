@@ -17,7 +17,6 @@ tags:
 use_math: true
 comments: true
 share : false
-sidebar_main: true
 ---
 
 <br>
