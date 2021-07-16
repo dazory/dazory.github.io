@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.ai-review %}
+{% assign posts = site.categories.computervision-review %}
 {% for post in posts %} {% include archive-category.html type=page.entries_layout %} {% endfor %}
