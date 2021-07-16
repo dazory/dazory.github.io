@@ -20,7 +20,15 @@
                 {% for category in site.categories %}{% if category[0] == "ai-review" %}
                 <li><a href="/categories/ai/review" class="">Paper Review ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
-            </span>
+        </span>
+
+        <span class="nav__sub-title">👀 Computer Vision</span>
+            <span class="nav__sub-content">
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "computervision-review" %}
+                <li><a href="/categories/computer-vision/review" class="">Paper Review ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+        </span>
 
         <span class="nav__sub-title">🎸 기타</span>
             <span class="nav__sub-content">
@@ -28,7 +36,7 @@
                 {% for category in site.categories %}{% if category[0] == "etc-blog" %}
                 <li><a href="/categories/etc/blog" class="">Blog ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
-            </span>
+        </span>
       </li>
   </ul>
 </nav>
