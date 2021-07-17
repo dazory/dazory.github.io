@@ -10,7 +10,7 @@ excerpt: "[AIAS] 인하대학교 홍성은 교수님의 인공지능 응용 시�
 date: 2021-07-10
 last_modified_at: 2021-07-13
 categories:
-  - ai-deeplearning # Deep Learning
+  - ai-deepLearning
 tags: 
    - [Deep Learning, AIAS]
 
