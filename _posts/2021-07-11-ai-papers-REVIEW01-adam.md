@@ -10,7 +10,7 @@ excerpt: "[논문 리뷰] Adam 논문 리뷰"
 date: 2021-07-11
 last_modified_at: 2021-07-13
 categories:
-  - ai-review
+  - ai-papers
 tags: 
    - [Deep Learning, optimizer, review]
 

@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Etc/Blog"
 layout: archive-category_layout
 permalink: categories/etc/blog
 author_profile: true

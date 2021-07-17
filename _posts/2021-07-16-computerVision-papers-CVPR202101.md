@@ -10,7 +10,7 @@ excerpt: "[CVPR2021] CVPR2021 주요 트렌드와 수상 논문을 살펴본다.
 date: 2021-07-16
 last_modified_at: 2021-07-16
 categories:
-  - computervision-review
+  - computerVision-papers
 tags: 
    - [Computer Vision, CVPR, Papers, Review]
 
@@ -73,7 +73,7 @@ CVPR 2021 채택 논문의 주요 키워드를 시각화한 결과는 다음과 
    Jie Lei, Linjie Li, Luowei Zhou, Zhe Gan, Tamara L. Berg, Mohit Bansal, Jingjing Liu
    ([link](https://openaccess.thecvf.com/content/CVPR2021/html/Lei_Less_Is_More_ClipBERT_for_Video-and-Language_Learning_via_Sparse_Sampling_CVPR_2021_paper.html))
 
-   <img src="/files/2021-07-16-ComputerVision-Review/image-20210712104655664.png" alt="image-20210712104655664" style="width:600px;" />
+   <img src="/files/2021-07-16-computerVision-papers-CVPR202101/image-20210712104655664.png" alt="image-20210712104655664" style="width:600px;" />
 
    
 
@@ -159,7 +159,7 @@ CVPR 2021 채택 논문의 주요 키워드를 시각화한 결과는 다음과 
    Shanchuan Lin, Andrey Ryabtsev, Soumyadip Sengupta, Brian Curless, Steve Seitz, Ira Kemelmacher-Shlizerman
    ([link](https://openaccess.thecvf.com/content/CVPR2021/html/Lin_Real-Time_High-Resolution_Background_Matting_CVPR_2021_paper.html))
 
-   <img src="/files/2021-07-16-ComputerVision-Review/image-20210713102115311-1626414735343.png" alt="image-20210713102115311" style="width:600px;" />
+   <img src="/files/2021-07-16-computerVision-papers-CVPR202101/image-20210713102115311-1626414735343.png" alt="image-20210713102115311" style="width:600px;" />
 
    **배경**
 
@@ -174,7 +174,7 @@ CVPR 2021 채택 논문의 주요 키워드를 시각화한 결과는 다음과 
      > **background matting란?**
      > 배경의 추가 프레임이 캡쳐되어 알파 매트(alpha matte)와 전경 레이어(foreground layer)에 대한 정보를 제공하는 데에 사용된다.
 
-   * <img src="/files/2021-07-16-ComputerVision-Review/image-20210713102646869.png" alt="image-20210713102646869" style="width:600px;" />
+   * <img src="/files/2021-07-16-computerVision-papers-CVPR202101/image-20210713102646869.png" alt="image-20210713102646869" style="width:600px;" />
 
      베이스 네트워크는 저해상도 결과를 계산하며, 이는 두 번째 네트워크에 의해 선택적 패치에 대해 고해상도로 작동한다.
 

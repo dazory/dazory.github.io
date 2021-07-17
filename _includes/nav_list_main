@@ -13,20 +13,20 @@
         <span class="nav__sub-title">🧠 인공지능</span>
             <span class="nav__sub-content">
             <ul>
-                {% for category in site.categories %}{% if category[0] == "ai-deeplearning" %}
-                <li><a href="/categories/ai/deeplearning" class="">Deep Learning ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+                {% for category in site.categories %}{% if category[0] == "ai-deepLearning" %}
+                <li><a href="/categories/ai/deepLearning" class="">Deep Learning ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}{% if category[0] == "ai-review" %}
-                <li><a href="/categories/ai/review" class="">Paper Review ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+                {% for category in site.categories %}{% if category[0] == "ai-papers" %}
+                <li><a href="/categories/ai/papers" class="">Papers ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
         </span>
 
         <span class="nav__sub-title">👀 Computer Vision</span>
             <span class="nav__sub-content">
             <ul>
-                {% for category in site.categories %}{% if category[0] == "computervision-review" %}
-                <li><a href="/categories/computer-vision/review" class="">Paper Review ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+                {% for category in site.categories %}{% if category[0] == "computerVision-papers" %}
+                <li><a href="/categories/computerVision/papers" class="">Papers ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
         </span>
 
