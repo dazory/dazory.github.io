@@ -8,7 +8,7 @@ layout: post-with-comments
 title: '[CVPR2021-01] CVPR2021 트렌드 및 수상 논문 살펴보기'
 excerpt: "[CVPR2021] CVPR2021 주요 트렌드와 수상 논문을 살펴본다."
 date: 2021-07-16
-last_modified_at: 2021-07-16
+last_modified_at: 2021-07-18
 categories:
   - computerVision-papers
 tags: 
@@ -23,7 +23,7 @@ share : false
 <!-- 3DVR2021-CVPR 2021 Workshop on 3D Vision and Robotics, since 2021-06-19 -->
 
 
-**CVPR(IEEE Conference on Computer Vision and Pattern Recognition)**은 컴퓨터 비전과 패턴 인식 분야에서 세계적으로 최고 수준의(Top-tier) 학회이다. 이번 포스팅에서는 2021년도 CVPR 학회에서 수상한 몇 가지 논문과 내가 관심있는 주제에 대한 몇 가지 논문들을 Abstract 위주로 살펴본다.
+**CVPR(IEEE Conference on Computer Vision and Pattern Recognition)**은 컴퓨터 비전과 패턴 인식 분야에서 세계적으로 최고 수준의(Top-tier) 학회이다. 이번 포스팅에서는 2021년도 CVPR 학회의 트렌드와 수상한 몇 가지 논문을 Abstract 위주로 살펴본다.
 
 
 
