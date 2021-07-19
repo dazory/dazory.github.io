@@ -150,12 +150,3 @@ I am a student of information and communication engineering at Inha University.
 * (2018.09.11.) 인하대학교 으뜸 공대인 수상 (인하공 제 2018-378호)
 
 
-
-
-
-
-
-
-
-
-
