@@ -9,19 +9,27 @@ layout: single
 tags: [About]
 ---
 
-<img src="/files/about/image-20210719153658710.png" alt="image-20210719153658710" style="width:300px;" />
 
-
-
-## DASOL HONG (홍다솔)
-
-I am a student of information and communication engineering at Inha University.
-
-* **E-Mail:** hong.dazory@gmail.com
-
-
+<header class="header" role="banner" style="margin-bottom:20px;">
+    <hgroup><img class="headshot" itemprop="image" src="/files/about/image-20210719210344925.png" alt="Dasol Hong"/>
+      <h1 class="name" itemprop="name">Dasol Hong(홍다솔)</h1>
+      <div class="user-description" itemprop="description">I am a student of information and communication engineering at Inha University.</div>
+    </hgroup>
+    <address class="contact-details">   
+        <a class="email" href="mailto:hong.dazory@gmail.com" itemprop="email">
+            <i class="fas fa-envelope" style="user-select: auto;"></i>
+            <span class="content">hong.dazory@gmail.com</span>
+        </a>
+        <a class="GitHub" href="https://github.io/dazory" itemprop="email">
+            <i class="fab fa-github"></i>
+            <span class="content">dazory</span>
+        </a>
+    </address>
+</header>
+  
 
 <br>
+
 
 ## Projects
 
