@@ -447,7 +447,7 @@ Yufei Ye, Shubham Tulsiani, Abhinav Gupta
 Philipp Henzler, Jeremy Reizenstein, Patrick Labatut, Roman Shapovalov, Tobias Ritschel, Andrea Vedaldi, David Novotny
 ([link](https://arxiv.org/abs/2103.16552))
 
-![image-20210719114117898](/files/2021-07-17-computerVision-papers-CVPR202102/image-20210719114117898.png)
+<img src="/files/2021-07-22-computerVision-papers-CVPR202103/image-20210719114117898.png" alt="image-20210719114117898" style="width:600px;" />
 
 **배경**
 
