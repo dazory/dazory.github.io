@@ -20,7 +20,7 @@ tags: [About]
             <i class="fas fa-envelope" style="user-select: auto;"></i>
             <span class="content">hong.dazory@gmail.com</span>
         </a>
-        <a class="GitHub" href="https://github.io/dazory" itemprop="email">
+        <a class="GitHub" href="https://github.com/dazory/" itemprop="email">
             <i class="fab fa-github"></i>
             <span class="content">dazory</span>
         </a>
@@ -146,7 +146,7 @@ tags: [About]
 <br>    
 
 
-## Experiences
+## Experience
 
 * (2021.01. ~ 2021.03.) 신호처리 및 머신러닝 연구실(Prof.박대영) 학부연구생
 * (2019.12. ~ 2020.12.) 인하벤처클럽 부회장
@@ -159,7 +159,7 @@ tags: [About]
 
 <br>
 
-## Awards
+## Honors & Awards
 
 * (2019.09.10.) 인하대학교 으뜸 공대인 수상 (인하공 제 2019-366호)
 * (2019.05.28.) 2019 인하 스타트업 아이데이션 대상 수상 (3DAY)
