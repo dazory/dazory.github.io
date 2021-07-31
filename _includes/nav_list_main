@@ -10,6 +10,15 @@
             <span style="font-size:12px;">📂 전체 글 수 {{sum}} 개</style>
       </li>
       <li>
+        
+        <span class="nav__sub-title">👀 Computer Vision</span>
+            <span class="nav__sub-content">
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "computerVision-papers" %}
+                <li><a href="/categories/computerVision/papers" class="">Papers ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+        </span>
+
         <span class="nav__sub-title">🧠 인공지능</span>
             <span class="nav__sub-content">
             <ul>
@@ -22,11 +31,11 @@
             </ul>
         </span>
 
-        <span class="nav__sub-title">👀 Computer Vision</span>
+        <span class="nav__sub-title">👾 Computer Science</span>
             <span class="nav__sub-content">
             <ul>
-                {% for category in site.categories %}{% if category[0] == "computerVision-papers" %}
-                <li><a href="/categories/computerVision/papers" class="">Papers ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+                {% for category in site.categories %}{% if category[0] == "computerScience-algorithm" %}
+                <li><a href="/categories/computerScience/algorithm" class="">Algorithm ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
         </span>
 
