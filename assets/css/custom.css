@@ -398,3 +398,55 @@
 .hl{
     background-color:rgba(255, 255, 102, .5)
 }
+
+/* header 1 */
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dolbomche_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eoe_Zno_EB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_EB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.page__inner-wrap .page__content h1{
+    font-size: 2em;
+    color:#6082B6; /* 36454F; */
+    font-weight: normal;
+    font-family: 'ONE-Mobile-POP';
+
+    border-top: 3px solid #6082B6;
+    border-bottom: 3px solid #6082B6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.page__inner-wrap .page__content h2{
+    font-size: 1.7em;
+    color: #6082B6;
+    font-weight: normal;
+    font-family: 'ONE-Mobile-POP';
+    
+    border-bottom-color: #6082B6;
+    padding-bottom: 0px;
+}
+.page__inner-wrap .page__content h3{
+    font-size: 1.3em;
+    color: #6082B6;
+    font-weight: 400;
+    font-family: 'Eoe_Zno_EB';
+}
