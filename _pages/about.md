@@ -9,7 +9,6 @@ layout: single
 tags: [About]
 ---
 
-
 <header class="header" role="banner" style="margin-bottom:20px;">
     <hgroup><img class="headshot" itemprop="image" src="/files/about/image-20210719210344925.png" alt="Dasol Hong"/>
       <h1 class="name" itemprop="name">Dasol Hong(홍다솔)</h1>
@@ -26,12 +25,15 @@ tags: [About]
         </a>
     </address>
 </header>
-  
 
 <br>
 
 
-## Projects
+<h2 style="
+    font-weight: bold;
+    font-family: 'Pretendard-Regular' !important;
+    color:black !important;
+    border: 0 !important;"> Projects </h2>
 
 <div class="blog-card">
     <div class="meta">
@@ -136,7 +138,11 @@ tags: [About]
 <br>
 
 
-## Publications
+<h2 style="
+    font-weight: bold;
+    font-family: 'Pretendard-Regular' !important;
+    color:black !important;
+    border: 0 !important;"> Publications </h2>
 
 * **홍다솔**, 김가연, 박다혜, 윤영호, 김학일, "자율주행차량의 실시간 다중센서 데이터 수집·정제·분석 및 관제 통합 플랫폼 개발", **제어·로봇·시스템학회 학술대회**, Jun. 23-25, 2021.
 
@@ -146,7 +152,11 @@ tags: [About]
 <br>    
 
 
-## Experience
+<h2 style="
+    font-weight: bold;
+    font-family: 'Pretendard-Regular' !important;
+    color:black !important;
+    border: 0 !important;"> Experience </h2>
 
 * (2021.01. ~ 2021.03.) 신호처리 및 머신러닝 연구실(Prof.박대영) 학부연구생
 * (2019.12. ~ 2020.12.) 인하벤처클럽 부회장
@@ -159,7 +169,11 @@ tags: [About]
 
 <br>
 
-## Honors & Awards
+<h2 style="
+    font-weight: bold;
+    font-family: 'Pretendard-Regular' !important;
+    color:black !important;
+    border: 0 !important;"> Honors & Awards </h2>
 
 * (2019.09.10.) 인하대학교 으뜸 공대인 수상 (인하공 제 2019-366호)
 * (2019.05.28.) 2019 인하 스타트업 아이데이션 대상 수상 (3DAY)
