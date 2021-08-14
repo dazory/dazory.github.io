@@ -141,19 +141,22 @@
     z-index: 1;
 }
 .blog-card .description h1, .blog-card .description h2 {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, sans-serif !important;
 }
 .blog-card .description h1 {
-    line-height: 1;
-    margin: 0;
-    font-size: 1.7rem;
+    line-height: 1 !important;
+    margin: 0 !important;
+    font-size: 1.7rem !important;
+    border: 0 !important ;
+    color:black !important;
+    font-weight: bold !important;
 }
 .blog-card .description h2 {
-    font-size: 1rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #a2a2a2;
-    margin-top: 5px;
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+    color: #a2a2a2 !important;
+    margin-top: 5px !important;
 }
 .blog-card .description .read-more {
     text-align: right;
@@ -239,6 +242,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 .tools .tool-types-list {
     margin: 0;
     padding: 0;
@@ -269,6 +278,10 @@
 .header .name{
     margin:0;
     padding:0;
+    font-weight: bold;
+    font-family: "Pretendard-Regular" !important;
+    color:black !important;
+    border: 0 !important;
 }
 .header .user-description {
     font-size: 15px;
@@ -460,3 +473,17 @@ gray{
     font-family: 'Eoe_Zno_EB';
 }
 
+
+
+/* Github Gist */
+.gist {
+    overflow:auto;
+ }
+ 
+ .gist .blob-wrapper.data {
+    /* max-height:400px; */
+    min-height: 100px;
+    height: 400px;
+    resize: vertical;
+    overflow:auto;
+ }
