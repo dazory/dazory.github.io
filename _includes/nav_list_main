@@ -19,6 +19,14 @@
             </ul>
         </span>
 
+        <span class="nav__sub-title">🤖 Robotics</span>
+            <span class="nav__sub-content">
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "robotics-ros" %}
+                <li><a href="/categories/robotics/ros" class="">ROS ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+        </span>
+
         <span class="nav__sub-title">🧠 인공지능</span>
             <span class="nav__sub-content">
             <ul>
