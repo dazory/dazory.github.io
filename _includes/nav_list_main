@@ -61,6 +61,10 @@
                 {% for category in site.categories %}{% if category[0] == "etc-settings" %}
                 <li><a href="/categories/etc/settings" class="">Settings ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "etc-references" %}
+                <li><a href="/categories/etc/references" class="">References ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
         </span>
       </li>
   </ul>
