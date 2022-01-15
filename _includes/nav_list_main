@@ -11,23 +11,12 @@
       </li>
       <li>
         
-        <span class="nav__sub-title">👀 Computer Vision</span>
-            <span class="nav__sub-content">
-            <ul>
-                {% for category in site.categories %}{% if category[0] == "computerVision-papers" %}
-                <li><a href="/categories/computerVision/papers" class="">Papers ({{category[1].size}})</a></li>{% endif %}{% endfor %}
-            </ul>
-        </span>
 
         <span class="nav__sub-title">🤖 Robotics</span>
             <span class="nav__sub-content">
             <ul>
                 {% for category in site.categories %}{% if category[0] == "robotics-ros" %}
                 <li><a href="/categories/robotics/ros" class="">ROS ({{category[1].size}})</a></li>{% endif %}{% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}{% if category[0] == "robotics-computerVision" %}
-                <li><a href="/categories/robotics/computerVision" class="">Computer Vision ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
         </span>
 
@@ -38,8 +27,8 @@
                 <li><a href="/categories/ai/deepLearning" class="">Deep Learning ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}{% if category[0] == "ai-papers" %}
-                <li><a href="/categories/ai/papers" class="">Papers ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+                {% for category in site.categories %}{% if category[0] == "ai-computerVision" %}
+                <li><a href="/categories/ai/computerVision" class="">Computer Vision ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
         </span>
 
@@ -58,8 +47,8 @@
                 <li><a href="/categories/etc/blog" class="">Blog ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}{% if category[0] == "etc-settings" %}
-                <li><a href="/categories/etc/settings" class="">Settings ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+                {% for category in site.categories %}{% if category[0] == "etc-environment" %}
+                <li><a href="/categories/etc/environment" class="">Environment ({{category[1].size}})</a></li>{% endif %}{% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}{% if category[0] == "etc-references" %}

@@ -1,0 +1,148 @@
+---
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+
+layout: post-with-comments
+title: '[ALGO-01] Lect1. 자료구조/알고리즘의 정의'
+excerpt: "[ALGO] 성균관대학교 허재필 교수님의 K-mooc 알고리즘 강의를 듣고 공부한 자료입니다."
+date: 2021-08-01
+last_modified_at: 2021-08-01
+categories:
+  - computerScience-algorithm
+tags: 
+   - [computer science, algorithm, ALGO]
+
+use_math: false
+comments: true
+share : false
+---
+
+<div class="info-dialog">
+    <div class="title">강의 정보</div>
+    <div class="content">
+        강의명: [집콕]인공지능을 위한 알고리즘과 자료구조: 이론, 코딩, 그리고 컴퓨팅 사고<br>
+        교수: 성균관대학교 소프트웨어학과 허재필 교수님<br>
+        사이트: <a href="http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_46+2021_T1/course/">http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_46+2021_T1/course/</a>
+    </div>
+</div>
+
+<br>
+<br>
+
+
+# 👉 자료구조, Data Structure
+
+자료구조는 말 그대로 "자료의 구조"를 의미한다. 자료의 구조를 표현하기 위해서는 일반적으로 다음의 <span class="hl">3가지 요소</span>가 필요하다.
+
+* 자료의 값 (Data values)
+* 자료들 간의 관계 (Relationships among data values)
+* 자료에 적용될 수 있는 연산 (Operations that can be applied to the data)
+
+
+## Fundamental data structures
+
+<img src="/files/2021-08-01-cs-algorithm-algo01/image-20210731210126795.png" alt="image-20210731210126795" style="width:600px;" />
+
+데이터의 구조는 크게 <span class="hl">기본 데이터 유형(Primitive)과 기본이 아닌 데이터 유형(Non-primitive)</span>으로 나눌 수 있다. 
+
+### 1. 기본 데이터 유형(Primitive)
+
+<span class="hl">프로그래밍 언어에 의해 미리 정의된 데이터 타입</span>을 의미한다. 변수 값의 크기와 유형이 미리 정의되어있다. 가령 C에서는 `integer`, `float`, `character`와 같은 primitive data가 존재한다.
+
+### 2. 기본이 아닌 데이터 유형(Non-primitive)
+
+프로그래밍 언어에 의해 정의되지 않고 <span class="hl">프로그래머에 의해 생성된 데이터 타입</span>이다. 데이터를 저장하는 메모리 위치를 참조하기 때문에 "참조 변수(reference varaibels)" 또는 객체 참조(object references)"라고도 불린다. Non-primitive data는 다음과 같이 <span class="hl">세 가지로 분류</span>할 수 있다.
+
+#### 2.1. 선형 데이터 구조, Linear
+
+   선형 데이터 구조는 <span class="hl">데이터 요소가 순차 또는 선형으로 배열된 구조</span>를 의미한다. 컴퓨터 메모리가 선형 방식으로 배열되어 있기 때문에 구현하기 쉽다는 특징이 있다. `array`, `stack`, `queue`, `linked list`는 선형 구조를 갖는다.
+
+   <div class="callout">
+       <span style="font-weight:bold;">Stack vs. Queue</span><br>
+       <img src="/files/2021-08-01-cs-algorithm-algo01/image-20210731211825340.png" alt="image-20210731211825340" style="width:200px; display:block; margin:0px auto; " />
+       stack과 queue 모두 차례로 쌓인 구조이지만, stack은 들어온 역 순으로 데이터가 읽히고 queue는 들어온 순서대로 데이터가 읽힌다는 점에 차이가 있다.
+   </div>
+   <br>
+
+
+#### 2.2. 비선형 데이터 구조, Non-linear
+
+   비선형 데이터 구조는 <span class="hl">순차적 또는 선형으로 배열되지 않은 데이터 구조</span>를 의미한다. 선형 데이터 구조에 비해 구현하기 쉽지 않지만, 컴퓨터 메모리를 더 효율적으로 사용할 수 있는 장점을 갖는다. 예로는 `tree`와 `graph`가 있다.
+
+   <div class="callout" style="background-color:#E9E9E9; color:#808080; border-radius:10px; padding:5px 15px;">
+       <span style="font-weight:bold;">Tree vs. Graph</span><br>
+       <img src="/files/2021-08-01-cs-algorithm-algo01/image-20210731212436322.png" alt="image-20210731212436322" style="width:200px; display:block; margin:0px auto; " />
+       tree는 두 정점 사이에 하나의 path만 존재하는 반면, graph는 둘 이상의 path가 허용된다. graph는 tree를 일반화한 것이라고 볼 수 있다.
+   </div>
+
+<br>
+   
+
+#### 2.3. 파일 데이터 구조, Files
+
+   파일 구조는 <span class="hl">서로 관련있는 필드로 구성된 레코드 집합인 파일에 대한 자료 구조</span>로, 보조 기억 장치에 데이터가 실제로 기록되는 형태이다. 예로 `sequential file`, `index file`, `direct file`이 있다.
+
+<br>
+
+## Graph traversal algorithms
+
+선형 데이터 구조에서 데이터 요소는 단일 실행에서만 순회할 수 있는 반면, 비선형 데이터 구조에서 데이터 요소는 다중 실행을 통해 순회가 가능하다. graph나 tree와 같은 비선형 데이터를 순회하는 대표적인 알고리즘에는 DFS와 BFS가 있다.
+
+> 🗣  뒤에서 더욱 자세히 다루도록 한다.
+
+<br><br><br>
+
+
+# 👉 추상화, Abstraction
+
+컴퓨터 과학에서 추상화(abstraction)는 <span class="hl">복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것</span>을 말한다. 가령 경복궁을 찾아간다고 할 때, 아래의 왼쪽 그림(위성사진)보다는 오른쪽 그림(약도)이 더 보기 쉽다.
+
+<img src="/files/2021-08-01-cs-algorithm-algo01/image-20210731204348879.png" alt="image-20210731204348879" style="width:300px; height:150px" /><img src="https://www.royalpalace.go.kr/content/images/guide/guide05_02.png" alt="주차장 안내" style="width:300px;" />
+
+이처럼 필수 정보만 제공하고 세부 사항을 숨기는 프로세스를 추상화라고 하며, 컴퓨팅 사고(computational thinking)에서 중요한 능력 중 하나이다.
+
+<br><br><br>
+
+# 👉 알고리즘, Algorithm
+
+알고리즘은 <span class="hl">연산의 시퀀스</span>이다. 적절한 알고리즘은 다음의 두 조건을 만족해야 한다.
+
+* 모든 가능한 input <u>instance</u>*에 대해서 정답을 도출해야 한다.
+* 반드시 알고리즘은 종료되어야 한다.
+
+<div class="callout" style="margin-bottom:10px;">
+    <span style="font-weight:bold;">*인스턴스(instance)란?</span><br>
+ 인스턴스는 알고리즘의 입력이 되는 데이터로, 필요한 정보를 모두 포함한다.
+</div>
+
+
+다양한 알고리즘 중에 더 좋은 알고리즘을 판별하기 위해서는 다양한 요소에 대해 분석해보아야 한다. 대표적으로 <span class="hl">점근적 표기법(Asymptotic notation)</span>을 이용하여 알고리즘의 복잡도(complexity)를 분석할 수 있다. 복잡도는 크게 시간 복잡도(time complexity)와 공간 복잡도(space complexity)로 나눌 수 있다.
+
+
+## Fundamental Algorithms
+
+여기서는 대략적으로 어떤 알고리즘이 있는지만 살펴보고, 각 알고리즘에 대한 자세한 내용은 후에 다루도록 한다.
+
+* **정렬 알고리즘(Sorting Algorithm)**: 원소들을 일정한 순서대로 열거하는 알고리즘
+* **최단 경로 알고리즘(Shortest Path Algorithm)**: graph에서 한 노드에서 다른 노드로 가는 가장 빠른 길을 찾는 알고리즘
+* **최소 신장 트리 알고리즘(Minimum Spanning Tree Algorithm)**: graph를 tree로 변환하는 알고리즘
+* **위상 정렬 알고리즘(Topological Sort Algorithm)**: 방향을 가진 유향 그래프의 꼭짓점들(vertex)을 변의 방향을 거스르지 않도록 나열하는 알고리즘
+* **동적 계획법 알고리즘(Dynamic Programming Algorithm)**: 복잡한 문제를 간단한 sub-problem으로 나누어 푸는 알고리즘
+
+<br><br><br>
+
+# 👉 실습 환경
+
+앞으로의 실습은 C++ 프로그래밍 언어를 이용하여 진행된다. [Dev-c++](https://sourceforge.net/projects/orwelldevcpp/)(경량 프로그램) 혹은 [vscode](https://code.visualstudio.com/) 코드 편집기를 사용하여 실습을 진행한다.
+
+<br><br><br>
+
+---
+
+# 👉References
+
+1. 위키백과-추상화: [https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81%ED%99%94_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)](https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81%ED%99%94_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99))
+2. edureka-Know All About the Various Data Types in Java: [https://www.edureka.co/blog/data-types-in-java/](https://www.edureka.co/blog/data-types-in-java/)
+3. Geeksforgeeks-Difference between Linear and Non-linear Data Structures: [https://www.geeksforgeeks.org/difference-between-linear-and-non-linear-data-structures/](https://www.geeksforgeeks.org/difference-between-linear-and-non-linear-data-structures/)
