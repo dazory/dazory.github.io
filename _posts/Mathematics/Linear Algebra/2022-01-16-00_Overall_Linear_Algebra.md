@@ -599,7 +599,7 @@ $$
 
 변환 행렬(*transformation matrices*)를 여러 개 결합하여(chaining) 간단하게 하나의 변환 행렬로 표현할 수 있다. 예를 들어 다음과 같이 로봇과 센서, 객체에 대한 행렬이 주어졌다고 가정하자.
 
-<img src="/files/00.Overview/image-20220114223349649.png" alt="image-20220114223349649" style="width:400px;" />
+<img src="/files/2022-01-16-00_Overall_Linear_Algebra/image-20220114223349649.png" alt="image-20220114223349649" style="width:400px;" />
 
 * $\textbf{A}$ : the pose of a robot in the space
 
