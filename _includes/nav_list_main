@@ -32,6 +32,14 @@
             </ul>
         </span>
 
+        <span class="nav__sub-title">🥸 Mathematics</span>
+            <span class="nav__sub-content">
+            <ul>
+                {% for category in site.categories %}{% if category[0] == "mathematics-linearAlgebra" %}
+                <li><a href="/categories/mathematics/linearAlgebra" class="">Linear Algebra ({{category[1].size}})</a></li>{% endif %}{% endfor %}
+            </ul>
+        </span>
+
         <span class="nav__sub-title">👾 Computer Science</span>
             <span class="nav__sub-content">
             <ul>
