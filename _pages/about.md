@@ -12,7 +12,7 @@ tags: [About]
 <header class="header" role="banner" style="margin-bottom:20px;">
     <hgroup><img class="headshot" itemprop="image" src="/files/about/image-20210719210344925.png" alt="Dasol Hong"/>
       <h1 class="name" itemprop="name">Dasol Hong(홍다솔)</h1>
-      <div class="user-description" itemprop="description">I am a student of information and communication engineering at Inha University.</div>
+      <div class="user-description" itemprop="description">I am a master's student advised by Professor <a href=https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/>Hyun Myung</a> at <a href=https://kaist.ac.kr/kr/>KAIST</a> (<a href=https://urobot.kaist.ac.kr/>Urban Robotics Lab</a>).
     </hgroup>
     <address class="contact-details">   
         <a class="email" href="mailto:hong.dazory@gmail.com" itemprop="email">
