@@ -103,13 +103,13 @@ analytics:
 author:
   name             : "Dasol Hong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a student of information and communication engineering at Inha University."
+  bio              : "I am a master's student advised by Professor Hyun Myung at KAIST (Urban Robotics Lab)."
   location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "hong.dazory@gmail.com"
+      url: "mailto:ds.hong@kaist.ac.kr"
     - label: "Notion"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
