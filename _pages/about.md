@@ -131,7 +131,7 @@ tags: [About]
         <h2>안드로이드 기반 카풀 어플리케이션</h2>
         <p>Android Studio를 이용하여 frontend를 만들고 AWS EC2와 MySQL을 이용하여 서버와 데이터베이스를 구축했습니다.</p>
         <p class="read-more">
-        <a href="#" onclick="return false;" target="_blank">Read More</a>
+        <a href="https://github.com/juwon0605/INCAR" onclick="return false;" target="_blank">Read More</a>
         </p>
     </div>
 </div>
