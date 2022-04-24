@@ -1,21 +1,384 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://dazory.github.io//about/</loc>
-</url>
-<url>
-<loc>https://dazory.github.io//categories/</loc>
-</url>
-<url>
-<loc>https://dazory.github.io//</loc>
-</url>
-<url>
-<loc>https://dazory.github.io//sitemap/</loc>
-</url>
-<url>
-<loc>https://dazory.github.io//tags/</loc>
-</url>
-<url>
-<loc>https://dazory.github.io//year-archive/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>https://dazory.github.io//ai-computervision/AugMix/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-deeplearning/DL05/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-deeplearning/DL04/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-deeplearning/DL03/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//robotics-mobilerobotics/I2MR01/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//mathematics-linearalgebra/00_Overall_Linear_Algebra/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//robotics-ros/ros2002/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//etc-references/opencv/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-computervision/neuromorphicVision02/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-computervision/neuromorphicVision01/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//robotics-ros/ros2001/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algorithmsSanjoyDasgupta02/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algorithmsSanjoyDasgupta/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo15/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo14/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo13/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo12/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo11/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo10/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo09/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo07/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo06/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo05/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo04/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-computerstructure/cs-computerStructure-kmooc01/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo03/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo02/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//computerscience-algorithm/algo01/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//etc-environment/anaconda/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-computervision/CVPR202103/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-computervision/CVPR202102/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-computervision/CVPR202101/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-deeplearning/REVIEW01-adam/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-deeplearning/DL02/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//etc-blog/TechBlog01/</loc>
+    </url>
+    
+    <url>
+        <loc>https://dazory.github.io//ai-deeplearning/DL01/</loc>
+    </url>
+    
+
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//about/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/ai/computerVision</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/ai/deepLearning</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/ai/papers</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/computerScience/algorithm</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/etc/blog</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/etc/environment</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/etc/references</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/mathematics/linearAlgebra</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/robotics/computerVision</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/robotics/mobileRobotics</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//categories/robotics/ros</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//assets/js/lunr/lunr-en.js</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//assets/js/lunr/lunr-gr.js</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//assets/js/lunr/lunr-store.js</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//sitemap/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//tags/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//year-archive/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//zip/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page2/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page3/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page4/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page5/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page6/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page7/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://dazory.github.io//page8/</loc>
+    </url>
+    
+    
+    
+    
+    
 </urlset>

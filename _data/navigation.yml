@@ -4,3 +4,6 @@ main:
     url: /about/
   - title: "Category"
     url: /categories/
+  - title: "Zip"
+    url: /zip
+
