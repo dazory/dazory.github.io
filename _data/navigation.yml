@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Category"
-    url: /categories/
-  - title: "Zip"
-    url: /zip
+#  - title: "Category"
+#    url: /categories/
 

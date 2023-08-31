@@ -41,7 +41,7 @@ tags: [About]
     <div class="meta">
         <div class="photo" style="background-image: url(/files/about/image-20210719184530047.png)"></div>
         <ul class="details">
-        <li class="author">DIVA2(4인)</li>
+        <li class="author">DIVA2 (4 people)</li>
         <li class="date">2021.01. ~ 2021.07.</li>
         <li class="tags">
             <ul>
@@ -55,8 +55,8 @@ tags: [About]
     </div>
     <div class="description">
         <h1>DIVA2</h1>
-        <h2>자율주행차량의 실시간 다중센서데이터 수집·정제·분석 및 관제 통합 플랫폼 개발</h2>
-        <p>자율주행 차량의 실시간 다중 센서 데이터 수집, 정제, 분석 및 제어를 위한 통합 플랫폼입니다.</p>
+        <h2>Integrated platform for real-time multi-sensor data collection, purification, analysis and control of autonomous vehicles</h2>
+        <p>An integrated platform for real-time multi-sensor data collection, refinement, analysis, and control of autonomous vehicles.</p>
         <p class="read-more">
         <a href="https://github.com/dazory/diva2" target="_blank">Read More</a>
         </p>
@@ -66,7 +66,7 @@ tags: [About]
     <div class="meta">
         <div class="photo" style="background-image: url(/files/about/image-20210719190415893.png)"></div>
         <ul class="details">
-        <li class="author">3인</li>
+        <li class="author">3 people</li>
         <li class="date">2021.05. ~ 2021.06.</li>
         <li class="tags">
             <ul>
@@ -79,8 +79,8 @@ tags: [About]
     </div>
     <div class="description">
         <h1>Pneumonia Classification</h1>
-        <h2>폐렴 분류기</h2>
-        <p>CNN을 활용하여 3가지 클래스(정상, 박테리아성 폐렴, 바이러스성 폐렴)로 흉부 X-ray 이미지를 분류합니다.</p>
+        <h2>CNN-based pneumonia classifier</h2>
+        <p>Through CNN, chest X-ray images are classified into three levels (normal, bacterial, and viral pneumonia).</p>
         <p class="read-more">
         <a href="https://github.com/dazory/Pneumonia-Classification" target="_blank">Read More</a>
         </p>
@@ -90,7 +90,7 @@ tags: [About]
     <div class="meta">
         <div class="photo" style="background-image: url(/files/about/image-20210719192637676.png)"></div>
         <ul class="details">
-        <li class="author">개인</li>
+        <li class="author">Personal</li>
         <li class="date">2020.03. ~ 2020.05.</li>
         <li class="tags">
             <ul>
@@ -102,9 +102,9 @@ tags: [About]
         </ul>
     </div>
     <div class="description">
-        <h1>스마트 자동 급식기</h1>
-        <h2>반려동물 케어시, 부담을 줄여주는 자동 급식기 설계</h2>
-        <p>MCU(ATmega4809)의 메모리 주소에 접근하여 로드셀, 모터, 블루투스 모듈 등을 제어합니다.</p>
+        <h1>Smart Automatic Feeder</h1>
+        <h2>Design of an automatic feeder that reduces the burden when caring for pets</h2>
+        <p>Accesses the memory address of the MCU (ATmega4809) to control load cells, motors, Bluetooth modules, etc.</p>
         <p class="read-more">
         <a href="#" onclick="return false;" target="_blank">Read More</a>
         </p>
@@ -114,7 +114,7 @@ tags: [About]
     <div class="meta">
         <div class="photo" style="background-image: url(/files/about/image-20210719194650595.png)"></div>
         <ul class="details">
-        <li class="author">INCAR(4인)</li>
+        <li class="author">INCAR (4 people)</li>
         <li class="date">2019.11. ~ 2020.05.</li>
         <li class="tags">
             <ul>
@@ -128,8 +128,8 @@ tags: [About]
     </div>
     <div class="description">
         <h1>INCAR</h1>
-        <h2>안드로이드 기반 카풀 어플리케이션</h2>
-        <p>Android Studio를 이용하여 frontend를 만들고 AWS EC2와 MySQL을 이용하여 서버와 데이터베이스를 구축했습니다.</p>
+        <h2>Android-Based Carpool Application</h2>
+        <p>Frontend was developed through Android Studio. Servers and databases were built with AWS EC2 and MySQL.</p>
         <p class="read-more">
         <a href="https://github.com/juwon0605/INCAR" onclick="return false;" target="_blank">Read More</a>
         </p>
@@ -146,10 +146,9 @@ tags: [About]
     color:black !important;
     border: 0 !important;"> Publications </h2>
 
+* DK. Noh, C. Sung, T. Uhm, WJ. Lee, H. Lim, J. Choi, K. Lee, **D. Hong**, ... & Myung, H. "X-MAS: extremely large-scale multi-modal sensor dataset for outdoor surveillance in real environments," in R-AL, 8(2), 1093-1100, 2023.
+
 * **홍다솔**, 김가연, 박다혜, 윤영호, 김학일, "자율주행차량의 실시간 다중센서 데이터 수집·정제·분석 및 관제 통합 플랫폼 개발", **제어·로봇·시스템학회 학술대회**, Jun. 23-25, 2021.
-
-
-
 
 <br>    
 
