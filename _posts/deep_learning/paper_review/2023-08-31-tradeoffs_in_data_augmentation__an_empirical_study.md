@@ -14,7 +14,7 @@ categories:
 tags: 
   - [Data Augmentation, Metric]
 
-use_math: false
+use_math: true
 comments: true
 share : false
 ---
