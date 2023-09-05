@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /
+Allow: _posts/
+Allow: _pages/
+Disallow: /resources/
+Disallow: /files/
 
 Sitemap: https://dazory.github.io/sitemap.xml
