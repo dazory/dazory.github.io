@@ -1,0 +1,43 @@
+<div class="list__item">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+        <h3 class="archive__item-title no_toc" itemprop="headline">
+            {{publication.title}}
+        </h3>
+        <!-- Authors -->
+        {% for lead_author in publication.lead_authors %}
+            {% if lead_author == "홍다솔" or lead_author == "Dasol Hong" %}
+                <span class="text_under"><strong>{{lead_author}}</strong></span>,
+            {% else %}
+                <strong>{{lead_author}}</strong>, 
+            {% endif %}
+        {% endfor %}
+        {% for co_author in publication.co_authors %}
+            {% if co_author == "홍다솔" or co_author == "Dasol Hong" %}
+                <span class="text_under">{{co_author}}</span>,
+            {% else %}
+                {{co_author}}, 
+            {% endif %}
+        {% endfor %}
+        {% for corresponding_author in publication.corresponding_authors %}
+            {{corresponding_author}}†, 
+        {% endfor %}
+        <!-- Publication, year -->
+        {{publication.publication}}, {{publication.year}}
+        <!-- Links -->
+        <p>
+            {% if publication.links %}
+                {% for link in publication.links %}
+                    <a href="{{link.url}}">[{{link.title}}]</a>
+                {% endfor %}
+            {% endif %}
+        </p>
+    </article>
+    <!-- Description -->
+    {% if publication.description %}
+        <span class="archive__item-excerpt" itemprop="description"></span>
+        <details>
+            <summary>Abstract</summary>
+            {{publication.description}}
+        </details>
+    {% endif %}
+</div>

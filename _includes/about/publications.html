@@ -1,0 +1,12 @@
+<h2 style="
+    font-weight: bold;
+    font-family: 'Pretendard-Regular' !important;
+    color:black !important;
+    border: 0 !important;"> Publications </h2>
+
+<ul class="publication">
+    {% assign publications = site.data.publications | where_exp: 'publications', 'publications.drop != true' | sort: 'date' | reverse  %}
+    {% for publication in publications %}
+        {% include about/publication.html %}
+    {% endfor %}
+</ul>
