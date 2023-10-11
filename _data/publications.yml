@@ -1,0 +1,68 @@
+- title: "자율주행차량의 실시간 다중센서 데이터 수집·정제·분석 및 관제 통합 플랫폼 개발"
+  lead_authors: 
+    - "홍다솔"
+  co_authors: 
+    - "김가연"
+    - "박다혜"
+    - "윤영호"
+  corresponding_authors:
+    - "김학일"
+  publication: "제어·로봇·시스템학회 학술대회 (ICROS)"
+  year: 2021
+  month: 6
+  # date: "2021/06/23-25"
+  links:
+    - title: "GitHub"
+      url: "https://github.com/dazory/diva2"
+  description:
+    "DIVA2 is an integrated platform for real-time multi-sensor data collection, refining, analysis, and control of autonomous vehicle."
+
+###########################################
+- title: "이미지를 강인하게 인식하는 보조 노이즈 전파 기법"
+  lead_authors: 
+    - "이우주"
+  co_authors: 
+    - "홍다솔"
+    - "이인균"
+  corresponding_authors:
+    - "명현"
+  publication: "한국로봇학회 (KROS)"
+  year: 2023
+  month: 2
+  date: "2023/02/15"
+  links:
+    - title: "KOASAS"
+      url: "https://koasas.kaist.ac.kr/handle/10203/305749"
+  description:
+    "In this study, we propose an auxiliary noise propagation module that is robust to an unstructured environment. Deep neural networks show high classification performance when training and testing data are drawn from the independent and identical distribution. However, deep neural networks show significantly low performance for the out-of-distribution data. Augmented noisy images could be the solution, but they degrade the model performance for the original data distribution. Our proposed model balances and improves performance for both cases. Our model propagates the original images to the original batch normalization layer and augmented noisy images to the auxiliary batch normalization layer separately. Separate batch normalization layers enforce the model to learn various features and improve the robustness for out-of-distribution data. Auxiliary noise propagation is trained on CIFAR-10 and the performance of the module is evaluated on the CIFAR-10-C. Experimental results show that the proposed auxiliary noise propagation improves the robustness for out-of-distribution data."
+
+###########################################
+- title: "X-MAS: Extremely Large-Scale Multi-Modal Sensor Dataset for Outdoor Surveillance in Real Environments"
+  lead_authors: 
+    - "DongKi Noh"
+  co_authors: 
+    - "Changki Sung"
+    - "Teayoung Uhm"
+    - "WooJu Lee"
+    - "Hyungtae Lim"
+    - "Jaeseok Choi"
+    - "Kyuewang Lee"
+    - "Dasol Hong"
+    - "Daeho Um"
+    - "Inseop Chung"
+    - "Hochul Shin"
+    - "MinJung Kim"
+    - "Hyoung-Rock Kim"
+    - "SeungMin Baek"
+  corresponding_authors:
+    - "Hyun Myung"
+  publication: "IEEE Robotics and Automation Letters (R-AL)"
+  year: 2023
+  month: 1
+  date: "2023/01/12"
+  links:
+    - title: "ArXiv"
+      url: "https://arxiv.org/pdf/2212.14574"
+  description:
+    "In robotics and computer vision communities, extensive studies have been widely conducted regarding surveillance tasks, including human detection, tracking, and motion recognition with a camera. Additionally, deep learning algorithms are widely utilized in the aforementioned tasks as in other computer vision tasks. Existing public datasets are insufficient to develop learning-based methods that handle various surveillance for outdoor and extreme situations such as harsh weather and low illuminance conditions. Therefore, we introduce a new large-scale outdoor surveillance dataset named e X tremely large-scale M ulti-mod A l S ensor dataset ( X-MAS ) containing more than 500,000 image pairs and the first-person view data annotated by well-trained annotators. Moreover, a single pair contains multi-modal data (e.g. an IR image, an RGB image, a thermal image, a depth image, and a LiDAR scan). ..."
+
