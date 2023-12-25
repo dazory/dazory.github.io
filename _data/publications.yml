@@ -66,3 +66,29 @@
   description:
     "In robotics and computer vision communities, extensive studies have been widely conducted regarding surveillance tasks, including human detection, tracking, and motion recognition with a camera. Additionally, deep learning algorithms are widely utilized in the aforementioned tasks as in other computer vision tasks. Existing public datasets are insufficient to develop learning-based methods that handle various surveillance for outdoor and extreme situations such as harsh weather and low illuminance conditions. Therefore, we introduce a new large-scale outdoor surveillance dataset named e X tremely large-scale M ulti-mod A l S ensor dataset ( X-MAS ) containing more than 500,000 image pairs and the first-person view data annotated by well-trained annotators. Moreover, a single pair contains multi-modal data (e.g. an IR image, an RGB image, a thermal image, a depth image, and a LiDAR scan). ..."
 
+
+###########################################
+- title: "Object-Aware Domain Generalization for Object Detection"
+  lead_authors: 
+    - "Dasol Hong"
+    - "Wooju Lee"
+  corresponding_authors:
+    - "Hyungtae Lim"
+    - "Hyun Myung"
+  publication: "AAAI"
+  year: 2024
+  month: 2
+  date: "2024/02"
+  links:
+    - title: "ArXiv"
+      url: "https://arxiv.org/abs/2312.12133"
+    - title: "GitHub"
+      url: "https://github.com/WoojuLee24/OA-DG"
+  description:
+    "Single-domain generalization (S-DG) aims to generalize a model to unseen environments with a single-source domain. 
+    However, most S-DG approaches have been conducted in the field of classification. When these approaches are applied to object detection, the semantic features of some objects can be damaged, which can lead to imprecise object localization and misclassification. 
+    To address these problems, we propose an object-aware domain generalization (OA-DG) method for single-domain generalization in object detection. 
+    Our method consists of data augmentation and training strategy, which are called OA-Mix and OA-Loss, respectively. OA-Mix generates multi-domain data with multi-level transformation and object-aware mixing strategy. OA-Loss enables models to learn domain-invariant representations for objects and backgrounds from the original and OA-Mixed images. 
+    Our proposed method outperforms state-of-the-art works on standard benchmarks."
+  image: "/resources/oadg.gif"
+
