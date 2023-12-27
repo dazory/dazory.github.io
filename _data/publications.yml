@@ -70,8 +70,8 @@
 ###########################################
 - title: "Object-Aware Domain Generalization for Object Detection"
   lead_authors: 
-    - "Dasol Hong"
     - "Wooju Lee"
+    - "Dasol Hong"
   corresponding_authors:
     - "Hyungtae Lim"
     - "Hyun Myung"
