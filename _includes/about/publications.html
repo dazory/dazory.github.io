@@ -5,7 +5,7 @@
     }
 
     .list__item {
-        overflow: hidden; /* 이미지와 텍스트가 올바르게 플로트 되도록 설정 */
+        overflow: visible; /* hidden: 이미지와 텍스트가 올바르게 플로트 되도록 설정 */
     }
 
     .archive__item img {
@@ -14,9 +14,9 @@
     }
 
     .page {
-        width: calc(100% - 150px);
-        padding-right: 200px;
-    }
+        width: 100%; /* calc(100% - 150px); */
+        padding-right: 0px; /* 200px; */
+    } 
 </style>
 
 <h2 style="
