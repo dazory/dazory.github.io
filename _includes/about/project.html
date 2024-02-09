@@ -1,0 +1,30 @@
+<div class="{{project.type}}">
+    <div class="meta">
+        <div class="photo" style="background-image: url({{project.photo}})"></div>
+        <ul class="details">
+        <li class="author">{{project.author}}</li>
+        <li class="date">{{project.date}}</li>
+
+        <li class="tags">
+            <ul>
+                {% for tag in project.tags %}
+                    <li>
+                        {% if tag.url %}
+                        <a href="{{tag.url}}" target="_blank">
+                        {% endif %}
+                        {{tag.name}}
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        </ul>
+    </div>
+    <div class="description">
+        <h1>{{project.title}}</h1>
+        <h2>{{project.summary}}</h2>
+        <p>{{project.details}}</p>
+        <p class="read-more">
+        <a href="{{project.readmore}}" target="_blank">Read More</a>
+        </p>
+    </div>
+</div>

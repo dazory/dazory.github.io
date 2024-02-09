@@ -1,0 +1,62 @@
+
+###########################################
+- title: "DIVA2"
+  summary: "Integrated platform for real-time multi-sensor data collection, purification, analysis and control of autonomous vehicles"
+  details: "An integrated platform for real-time multi-sensor data collection, refinement, analysis, and control of autonomous vehicles."
+  type: "blog-card alt"
+  photo: "/files/about/image-20210719184530047.png"
+  author:  "DIVA2 (4 people)"
+  date: "2021.01. ~ 2021.07."
+  tags:
+    - name: "C/C++"
+    - name: "CMake"
+    - name: "ZeroMQ"
+      url: "https://zeromq.org/"
+    - name: "Protocol Buffers"
+      url: "https://developers.google.com/protocol-buffers"
+  readmore: "https://github.com/dazory/diva2"
+
+###########################################
+- title: "Pneumonia Classification"
+  summary: "CNN-based pneumonia classifier"
+  details: "Through CNN, chest X-ray images are classified into three levels (normal, bacterial, and viral pneumonia)."
+  type: "blog-card"
+  photo: "/files/about/image-20210719190415893.png"
+  author:  "3 people"
+  date: "2021.05. ~ 2021.06."
+  tags:
+    - name: "Python"
+    - name: "Tensorflow"
+    - name: "Keras"
+  readmore: "https://github.com/dazory/Pneumonia-Classification"
+
+
+###########################################
+- title: "Smart Automatic Feeder"
+  summary: "Design of an automatic feeder that reduces the burden when caring for pets"
+  details: "Accesses the memory address of the MCU (ATmega4809) to control load cells, motors, Bluetooth modules, etc."
+  type: "blog-card"
+  photo: "/files/about/image-20210719192637676.png"
+  author:  "Personal"
+  date: "2020.03. ~ 2020.05."
+  tags:
+    - name: "C/C++"
+    - name: "OrCAD"
+    - name: "ATmega4809"
+  readmore: "#"
+   
+
+###########################################
+- title: "INCAR"
+  summary: "Android-Based Carpool Application"
+  details: "Frontend was developed through Android Studio. Servers and databases were built with AWS EC2 and MySQL."
+  type: "blog-card alt"
+  photo: "/files/about/image-20210719194650595.png"
+  author:  "INCAR (4 people)"
+  date: "2019.11. ~ 2020.05."
+  tags:
+    - name: "Android"
+    - name: "JAVA"
+    - name: "MySQL"
+    - name: "AWS EC2"
+  readmore: "https://github.com/juwon0605/INCAR"

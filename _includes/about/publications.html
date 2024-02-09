@@ -1,3 +1,24 @@
+<style>
+    ul.publication > li {
+        margin-bottom: 20px; /* 각 publication 사이의 간격을 설정 */
+        list-style-type: none; /* 점 모양 제거 */
+    }
+
+    .list__item {
+        overflow: visible; /* hidden: 이미지와 텍스트가 올바르게 플로트 되도록 설정 */
+    }
+
+    .archive__item img {
+        float: left;
+        margin-right: 20px; /* 이미지와 텍스트 사이의 간격 */
+    }
+
+    .page {
+        width: 100%; /* calc(100% - 150px); */
+        padding-right: 0px; /* 200px; */
+    } 
+</style>
+
 <h2 style="
     font-weight: bold;
     font-family: 'Pretendard-Regular' !important;
@@ -7,6 +28,8 @@
 <ul class="publication">
     {% assign publications = site.data.publications | where_exp: 'publications', 'publications.drop != true' | sort: 'date' | reverse  %}
     {% for publication in publications %}
-        {% include about/publication.html %}
+        <li>
+            {% include about/publication.html %}
+        </li>
     {% endfor %}
 </ul>
