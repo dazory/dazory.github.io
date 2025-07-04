@@ -3,7 +3,7 @@
     background-color: #e0e0e0; /* Light grey background */
     border-radius: 20px; /* Rounded corners */
     padding: 2px 5px; /* Padding around the text */
-    color: #000; /* Text color */
+    color: #525252; /* Text color */
     text-decoration: none; /* Remove underline */
     font-family: Arial, sans-serif; /* Font style */
     font-size: 14px; /* Font size */
@@ -34,11 +34,11 @@
   }
 </style>
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<table style="table-layout: fixed; width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
         <td style="padding:10px;width:40%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
             {% if publication.image %}
-                <img width="300px" src="{{publication.image}}" alt="hpp" style="border-style: none">
+                <img src="{{publication.image}}" alt="hpp" style="border-style: none;">
             {% endif %}
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">

@@ -1,40 +1,42 @@
-- title: "자율주행차량의 실시간 다중센서 데이터 수집·정제·분석 및 관제 통합 플랫폼 개발"
-  lead_authors: 
-    - "홍다솔"
-  co_authors: 
-    - "김가연"
-    - "박다혜"
-    - "윤영호"
-  corresponding_authors:
-    - "김학일"
-  publication: "제어·로봇·시스템학회 학술대회 (ICROS)"
-  year: 2021
-  month: 6
-  # date: "2021/06/23-25"
-  links:
-    - title: "GitHub"
-      url: "https://github.com/dazory/diva2"
-  description:
-    "DIVA2 is an integrated platform for real-time multi-sensor data collection, refining, analysis, and control of autonomous vehicle."
+# - title: "자율주행차량의 실시간 다중센서 데이터 수집·정제·분석 및 관제 통합 플랫폼 개발"
+#   lead_authors: 
+#     - "홍다솔"
+#   co_authors: 
+#     - "김가연"
+#     - "박다혜"
+#     - "윤영호"
+#   corresponding_authors:
+#     - "김학일"
+#   publication: "제어·로봇·시스템학회 학술대회 (ICROS)"
+#   year: 2021
+#   month: 6
+#   # date: "2021/06/23-25"
+#   links:
+#     - title: "GitHub"
+#       url: "https://github.com/dazory/diva2"
+#       type: "web"
+#   description:
+#     "DIVA2 is an integrated platform for real-time multi-sensor data collection, refining, analysis, and control of autonomous vehicle."
 
 ###########################################
-- title: "이미지를 강인하게 인식하는 보조 노이즈 전파 기법"
-  lead_authors: 
-    - "이우주"
-  co_authors: 
-    - "홍다솔"
-    - "이인균"
-  corresponding_authors:
-    - "명현"
-  publication: "한국로봇학회 (KROS)"
-  year: 2023
-  month: 2
-  date: "2023/02/15"
-  links:
-    - title: "KOASAS"
-      url: "https://koasas.kaist.ac.kr/handle/10203/305749"
-  description:
-    "In this study, we propose an auxiliary noise propagation module that is robust to an unstructured environment. Deep neural networks show high classification performance when training and testing data are drawn from the independent and identical distribution. However, deep neural networks show significantly low performance for the out-of-distribution data. Augmented noisy images could be the solution, but they degrade the model performance for the original data distribution. Our proposed model balances and improves performance for both cases. Our model propagates the original images to the original batch normalization layer and augmented noisy images to the auxiliary batch normalization layer separately. Separate batch normalization layers enforce the model to learn various features and improve the robustness for out-of-distribution data. Auxiliary noise propagation is trained on CIFAR-10 and the performance of the module is evaluated on the CIFAR-10-C. Experimental results show that the proposed auxiliary noise propagation improves the robustness for out-of-distribution data."
+# - title: "이미지를 강인하게 인식하는 보조 노이즈 전파 기법"
+#   lead_authors: 
+#     - "이우주"
+#   co_authors: 
+#     - "홍다솔"
+#     - "이인균"
+#   corresponding_authors:
+#     - "명현"
+#   publication: "한국로봇학회 (KROS)"
+#   year: 2023
+#   month: 2
+#   date: "2023/02/15"
+#   links:
+#     - title: "KOASAS"
+#       url: "https://koasas.kaist.ac.kr/handle/10203/305749"
+#       type: "arxiv"
+#   description:
+#     "In this study, we propose an auxiliary noise propagation module that is robust to an unstructured environment. Deep neural networks show high classification performance when training and testing data are drawn from the independent and identical distribution. However, deep neural networks show significantly low performance for the out-of-distribution data. Augmented noisy images could be the solution, but they degrade the model performance for the original data distribution. Our proposed model balances and improves performance for both cases. Our model propagates the original images to the original batch normalization layer and augmented noisy images to the auxiliary batch normalization layer separately. Separate batch normalization layers enforce the model to learn various features and improve the robustness for out-of-distribution data. Auxiliary noise propagation is trained on CIFAR-10 and the performance of the module is evaluated on the CIFAR-10-C. Experimental results show that the proposed auxiliary noise propagation improves the robustness for out-of-distribution data."
 
 ###########################################
 - title: "X-MAS: Extremely Large-Scale Multi-Modal Sensor Dataset for Outdoor Surveillance in Real Environments"
@@ -63,8 +65,10 @@
   links:
     - title: "ArXiv"
       url: "https://arxiv.org/pdf/2212.14574"
+      type: "arxiv"
   description:
     "In robotics and computer vision communities, extensive studies have been widely conducted regarding surveillance tasks, including human detection, tracking, and motion recognition with a camera. Additionally, deep learning algorithms are widely utilized in the aforementioned tasks as in other computer vision tasks. Existing public datasets are insufficient to develop learning-based methods that handle various surveillance for outdoor and extreme situations such as harsh weather and low illuminance conditions. Therefore, we introduce a new large-scale outdoor surveillance dataset named e X tremely large-scale M ulti-mod A l S ensor dataset ( X-MAS ) containing more than 500,000 image pairs and the first-person view data annotated by well-trained annotators. Moreover, a single pair contains multi-modal data (e.g. an IR image, an RGB image, a thermal image, a depth image, and a LiDAR scan). ..."
+  image: "/files_new/publications/xmas.png"
 
 
 ###########################################
@@ -82,13 +86,96 @@
   links:
     - title: "ArXiv"
       url: "https://arxiv.org/abs/2312.12133"
+      type: "arxiv"
     - title: "GitHub"
       url: "https://github.com/WoojuLee24/OA-DG"
+      type: "web"
+    - title: "Video(presentation)"
+      url: "https://www.youtube.com/watch?v=lFYBmdSMMGg"
+      type: "video"
+    - title: "Video(demo)"
+      url: "https://www.youtube.com/watch?v=4cZx9errffM"
+      type: "video"
   description:
     "Single-domain generalization (S-DG) aims to generalize a model to unseen environments with a single-source domain. 
     However, most S-DG approaches have been conducted in the field of classification. When these approaches are applied to object detection, the semantic features of some objects can be damaged, which can lead to imprecise object localization and misclassification. 
     To address these problems, we propose an object-aware domain generalization (OA-DG) method for single-domain generalization in object detection. 
     Our method consists of data augmentation and training strategy, which are called OA-Mix and OA-Loss, respectively. OA-Mix generates multi-domain data with multi-level transformation and object-aware mixing strategy. OA-Loss enables models to learn domain-invariant representations for objects and backgrounds from the original and OA-Mixed images. 
     Our proposed method outperforms state-of-the-art works on standard benchmarks."
-  image: "/resources/oadg.gif"
+  image: "/files_new/publications/oadg.gif"
 
+
+###########################################
+- title: "PIDLoc: Cross-View Pose Optimization Network Inspired by PID Controllers"
+  lead_authors: 
+    - "Wooju Lee"
+  co_authors: 
+    - "Juhye Park"
+    - "Dasol Hong"
+    - "Changki Sung"
+    - "Youngwoo Seo"
+    - "Dongwan Kang"
+  corresponding_authors:
+    - "Hyun Myung"
+  publication: "CVPR"
+  year: 2025
+  month: 6
+  date: "2025/06"
+  links:
+    - title: "arXiv"
+      url: "https://arxiv.org/abs/2503.02388"
+      type: "arxiv"
+    - title: "GitHub"
+      url: "https://github.com/url-kaist/PIDLoc"
+      type: "web"
+  description:
+    "Accurate localization is essential for autonomous driving, but GNSS-based methods struggle in challenging environments 
+    such as urban canyons. Cross-view pose optimization offers an effective solution for localization by directly estimating 
+    vehicle pose using satellite-view images. However, existing methods primarily rely on cross-view features at a given 
+    pose, neglecting fine-grained contexts for precision and global contexts for robustness against large initial pose 
+    errors. To overcome these limitations, we propose PIDLoc, a novel cross-view pose optimization approach inspired by the 
+    proportional-integral-derivative (PID) controller. Using RGB images and LiDAR data, the PIDLoc models cross-view feature 
+    relationships through the PID branches and estimates pose via the spatially aware pose estimator (SPE). To enhance 
+    localization accuracy, the PID branches leverage feature differences for local context (P), aggregated feature 
+    differences for global context (I), and gradients of feature differences for fine-grained context (D). Integrated with 
+    the PID branches, the SPE captures spatial relationships within the PID-branch features for consistent localization. 
+    Experimental results demonstrate that the PIDLoc achieves state-of-the-art performance in cross-view pose estimation for 
+    the KITTI dataset, reducing position error by 37.8% compared with the previous state-of-the-art. Our code is available 
+    at https://github.com/url-kaist/PIDLoc."
+  image: "/files_new/publications/pidloc.png"
+
+
+###########################################
+- title: "CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization"
+  lead_authors: 
+    - "Dasol Hong"
+  co_authors: 
+    - "Wooju Lee"
+  corresponding_authors:
+    - "Hyun Myung"
+  publication: "ICML"
+  year: 2025
+  month: 7
+  date: "2025/07"
+  links:
+    - title: "ArXiv"
+      url: "https://arxiv.org/abs/2506.07484"
+      type: "arxiv"
+    - title: "Homepage"
+      url: "https://dazory.github.io/CoCoA-Mix/"
+      type: "web"
+    - title: "GitHub"
+      url: "https://github.com/url-kaist/CoCoA-Mix"
+      type: "web"
+  description:
+    "Prompt tuning, which adapts vision-language models by freezing model parameters and optimizing only the prompt, 
+    has proven effective for task-specific adaptations. The core challenge in prompt tuning is improving specialization 
+    for a specific task and generalization for unseen domains. However, frozen encoders often produce misaligned 
+    features, leading to confusion between classes and limiting specialization. To overcome this issue, we propose 
+    a confusion-aware loss (CoA-loss) that improves specialization by refining the decision boundaries between 
+    confusing classes. Additionally, we mathematically demonstrate that a mixture model can enhance generalization 
+    without compromising specialization. This is achieved using confidence-aware weights (CoA-weights), which adjust 
+    the weights of each prediction in the mixture model based on its confidence within the class domains. Extensive 
+    experiments show that CoCoA-Mix, a mixture model with CoA-loss and CoA-weights, outperforms state-of-the-art 
+    methods by enhancing specialization and generalization. Our code is publicly available at https://github.com/url-kaist/CoCoA-Mix."
+  image: "/files_new/publications/cocoamix.png"
