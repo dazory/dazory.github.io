@@ -1,46 +1,79 @@
-<div class="list__item">
-    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-        {% if publication.image %}
-            <img width="300px" src="{{publication.image}}" style="float: left; margin-right: 20px">
-        {% endif %}
-        <h3 class="archive__item-title no_toc" itemprop="headline" style="font-size: medium; overflow: visible;">
-            {{publication.title}}
-        </h3>
-        <!-- Authors -->
-        {% for lead_author in publication.lead_authors %}
-            {% if lead_author == "홍다솔" or lead_author == "Dasol Hong" %}
-                <span class="text_under"><strong>{{lead_author}}<sup>*</sup></strong></span>,
-            {% else %}
-                <strong>{{lead_author}}<sup>*</sup></strong>, 
+<style>
+    .custom-link {
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 2px 5px; /* Padding around the text */
+    color: #000; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 14px; /* Font size */
+    margin-right: 6px; /* Space between buttons */
+  }
+
+  .custom-link.arxiv {
+    background-color: #ffdde8; /* Color for arxiv */
+  }
+
+  .custom-link.web {
+    background-color: #ffe88b; /* Color for web */
+  }
+
+  .custom-link.video {
+    background-color: #d8f2ff; /* Color for web */
+  }
+
+  .custom-link:hover {
+    opacity: 0.8; /* Slightly fade on hover */
+  }
+
+  .papertitle {
+    font-size: 18px; /* Increased font size */
+    color: #224b8d;
+    font-weight: inherit; /* Optional: make it bold */
+    font-family: Arial, sans-serif; /* Apply a font family */
+  }
+</style>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+        <td style="padding:10px;width:40%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
+            {% if publication.image %}
+                <img width="300px" src="{{publication.image}}" alt="hpp" style="border-style: none">
             {% endif %}
-        {% endfor %}
-        {% for co_author in publication.co_authors %}
-            {% if co_author == "홍다솔" or co_author == "Dasol Hong" %}
-                <span class="text_under">{{co_author}}</span>,
-            {% else %}
-                {{co_author}}, 
-            {% endif %}
-        {% endfor %}
-        {% for corresponding_author in publication.corresponding_authors %}
-            {{corresponding_author}}<sup>†</sup>, 
-        {% endfor %}
-        <!-- Publication, year -->
-        in {{publication.publication}}, {{publication.year}}
-        <!-- Links -->
-        <p>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
+            <!-- <papertitle>{{publication.title}}</papertitle> -->
+            <span class="papertitle">{{publication.title}}</span>            
+            <br>
+            <!-- Authors -->
+            {% for lead_author in publication.lead_authors %}
+                {% if lead_author == "홍다솔" or lead_author == "Dasol Hong" %}
+                    <span class="text_under"><strong>{{lead_author}}<sup>*</sup></strong></span>,
+                {% else %}
+                    <strong>{{lead_author}}<sup>*</sup></strong>, 
+                {% endif %}
+            {% endfor %}
+            {% for co_author in publication.co_authors %}
+                {% if co_author == "홍다솔" or co_author == "Dasol Hong" %}
+                    <span class="text_under">{{co_author}}</span>,
+                {% else %}
+                    {{co_author}}, 
+                {% endif %}
+            {% endfor %}
+            {% for corresponding_author in publication.corresponding_authors %}
+                {{corresponding_author}}<sup>†</sup>, 
+            {% endfor %}    
+            <br>
+            <!-- <em>Accepted by as <strong>Oral</strong> in 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em> -->
+            <!-- Publication, year -->
+            <em>{{publication.publication}}, {{publication.year}}</em>
+            <br>
+            <!-- Links -->
             {% if publication.links %}
                 {% for link in publication.links %}
-                    <a href="{{link.url}}">[{{link.title}}]</a>
+                    <a href="{{link.url}}" target="_blank" class="custom-link {{ link.type }}">{{ link.title }}</a>
                 {% endfor %}
             {% endif %}
-        </p>
-    </article>
-    <!-- Description -->
-    {% if publication.description %}
-        <span class="archive__item-excerpt" itemprop="description"></span>
-        <details>
-            <summary>Abstract</summary>
-            {{publication.description}}
-        </details>
-    {% endif %}
-</div>
+        </td>
+    </tr>
+</table>
